@@ -19,10 +19,8 @@ class TestAPITest:
 
         # Optional: check data exists
         assert len(json_res) > 0
+
     
-    def test_post_new_data():
-        pass
-    
-    
+
 
 # add next endpoint 
