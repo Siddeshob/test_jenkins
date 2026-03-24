@@ -1,7 +1,7 @@
-def add(a, b):
-    return a + b
+# Original (passing)
+def test_example():
+    assert 1 == 1
 
-
-# get endpoint .
-def test_add():
-    assert add(2, 3) == 5
+# Break it like this
+def test_example():
+    assert 1 == 2  # This will fail
