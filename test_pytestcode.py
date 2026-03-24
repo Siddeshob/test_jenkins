@@ -2,6 +2,6 @@
 def test_example():
     assert 1 == 1
 
-# Break it like this
+# Fix it back to correct assertion
 def test_example():
-    assert 1 == 2  # This will fail
+    assert 1 == 1  # Back to passing
