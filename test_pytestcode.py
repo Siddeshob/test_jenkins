@@ -1,4 +1,6 @@
-def check_is_true_test():
-    assert True is True
+def add(a, b):
+    return a + b
 
-check_is_true_test()
+
+def test_add():
+    assert add(2, 3) == 5
