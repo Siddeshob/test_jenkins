@@ -19,3 +19,5 @@ class TestAPITest:
 
         # Optional: check data exists
         assert len(json_res) > 0
+    
+# add next endpoint
